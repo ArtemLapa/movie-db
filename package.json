@@ -4,10 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel index.html --open",
-    "serve": "parcel index.html --open",
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html --no-source-maps --no-cache"
+    "dev": "parcel index.html movies.html --open",
+    "serve": "parcel index.html movies.html --open",
+    "start": "parcel index.html movies.html --open",
+    "build": "parcel build index.html movies.html --no-source-maps --no-cache"
   },
   "devDependencies": {
     "cssnano": "^4.1.10",
@@ -18,5 +18,8 @@
   "parcelCleanPaths": [
     "dist",
     ".cashe"
+  ],
+  "browserslist": [
+    "last 1 Chrome versions"
   ]
 }
